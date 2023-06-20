@@ -1,14 +1,13 @@
-package Creational.Factory.chair;
+package Creational.AbstractFactory.chair;
 
-public class VictorianChair implements Chair {
+public class ArtDecoChair implements Chair {
     private final String variant;
     private final int noOfLegs;
-    private final String material;
+    private final String fabric;
 
-
-    public VictorianChair() {
-        this.variant = "Victorian";
-        this.material = "Leather";
+    public ArtDecoChair() {
+        this.variant = "ArtDeco";
+        this.fabric = "Cotton";
         this.noOfLegs = 5;
         this.getChair();
     }
@@ -17,13 +16,14 @@ public class VictorianChair implements Chair {
         return variant;
     }
 
-    public String getMaterial() {
-        return material;
-    }
-
     public int getNoOfLegs() {
         return noOfLegs;
     }
+
+    public String getfabric() {
+        return fabric;
+    }
+
     @Override
     public void getChair() {
         System.out.println("Getting the " + this.variant + " chair...");

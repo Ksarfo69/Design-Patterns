@@ -1,4 +1,4 @@
-package Creational.Factory.chair;
+package Creational.AbstractFactory.chair;
 
 public class ModernChair implements Chair {
     private final String variant;

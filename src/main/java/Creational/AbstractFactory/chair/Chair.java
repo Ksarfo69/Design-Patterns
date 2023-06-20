@@ -1,4 +1,4 @@
-package Creational.Factory.chair;
+package Creational.AbstractFactory.chair;
 
 public interface Chair {
     void getChair();

@@ -1,4 +1,4 @@
-package Creational.Factory.table;
+package Creational.AbstractFactory.table;
 
 public class VictorianTable implements Table {
     private String variant;

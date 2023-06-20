@@ -1,8 +1,8 @@
-package Creational.Factory.factories;
+package Creational.AbstractFactory.factories;
 
-import Creational.Factory.chair.ModernChair;
-import Creational.Factory.sofa.ModernSofa;
-import Creational.Factory.table.ModernTable;
+import Creational.AbstractFactory.chair.ModernChair;
+import Creational.AbstractFactory.sofa.ModernSofa;
+import Creational.AbstractFactory.table.ModernTable;
 
 public class ModernFurnitureFactory implements FurnitureFactory {
 

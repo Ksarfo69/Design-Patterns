@@ -1,4 +1,4 @@
-package Creational.Factory.table;
+package Creational.AbstractFactory.table;
 
 public class ArtDecoTable implements Table {
     private final String variant;

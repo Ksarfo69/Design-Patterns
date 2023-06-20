@@ -1,4 +1,4 @@
-package Creational.Factory.enums;
+package Creational.AbstractFactory.enums;
 
 public enum FactoryType {
     ART_DECO,

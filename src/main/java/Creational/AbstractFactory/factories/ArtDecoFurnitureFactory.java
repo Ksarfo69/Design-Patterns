@@ -1,8 +1,8 @@
-package Creational.Factory.factories;
+package Creational.AbstractFactory.factories;
 
-import Creational.Factory.chair.ArtDecoChair;
-import Creational.Factory.sofa.ArtDecoSofa;
-import Creational.Factory.table.ArtDecoTable;
+import Creational.AbstractFactory.chair.ArtDecoChair;
+import Creational.AbstractFactory.sofa.ArtDecoSofa;
+import Creational.AbstractFactory.table.ArtDecoTable;
 
 public class ArtDecoFurnitureFactory implements FurnitureFactory {
     @Override

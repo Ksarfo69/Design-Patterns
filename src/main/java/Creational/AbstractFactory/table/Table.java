@@ -1,4 +1,4 @@
-package Creational.Factory.table;
+package Creational.AbstractFactory.table;
 
 public interface Table {
     static int noOfLegs = 4;

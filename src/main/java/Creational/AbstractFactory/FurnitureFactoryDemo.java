@@ -1,9 +1,9 @@
-package Creational.Factory;
+package Creational.AbstractFactory;
 
-import Creational.Factory.chair.Chair;
-import Creational.Factory.enums.FactoryType;
-import Creational.Factory.factories.FurnitureFactory;
-import Creational.Factory.table.Table;
+import Creational.AbstractFactory.chair.Chair;
+import Creational.AbstractFactory.enums.FactoryType;
+import Creational.AbstractFactory.factories.FurnitureFactory;
+import Creational.AbstractFactory.table.Table;
 
 
 public class FurnitureFactoryDemo {

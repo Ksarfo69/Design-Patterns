@@ -1,4 +1,4 @@
-package Creational.Factory.sofa;
+package Creational.AbstractFactory.sofa;
 
 public class ModernSofa implements Sofa {
 

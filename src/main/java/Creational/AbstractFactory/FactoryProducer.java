@@ -1,10 +1,10 @@
-package Creational.Factory;
+package Creational.AbstractFactory;
 
-import Creational.Factory.enums.FactoryType;
-import Creational.Factory.factories.ArtDecoFurnitureFactory;
-import Creational.Factory.factories.FurnitureFactory;
-import Creational.Factory.factories.ModernFurnitureFactory;
-import Creational.Factory.factories.VictorianFurnitureFactory;
+import Creational.AbstractFactory.enums.FactoryType;
+import Creational.AbstractFactory.factories.ArtDecoFurnitureFactory;
+import Creational.AbstractFactory.factories.FurnitureFactory;
+import Creational.AbstractFactory.factories.ModernFurnitureFactory;
+import Creational.AbstractFactory.factories.VictorianFurnitureFactory;
 
 public class FactoryProducer {
     public static FurnitureFactory getFactory(FactoryType choice){

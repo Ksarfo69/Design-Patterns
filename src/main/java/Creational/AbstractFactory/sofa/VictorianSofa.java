@@ -1,4 +1,4 @@
-package Creational.Factory.sofa;
+package Creational.AbstractFactory.sofa;
 
 public class VictorianSofa implements Sofa {
     private final String variant;
