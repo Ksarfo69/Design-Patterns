@@ -8,6 +8,10 @@ public interface FurnitureFactory {
     public Chair createChair();
     public Sofa createSofa();
     public Table createTable();
+    default void k()
+    {
+        System.out.println("Hello K");
+    }
 }
 
 

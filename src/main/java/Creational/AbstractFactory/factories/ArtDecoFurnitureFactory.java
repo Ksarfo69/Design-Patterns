@@ -19,4 +19,14 @@ public class ArtDecoFurnitureFactory implements FurnitureFactory {
     public ArtDecoTable createTable() {
         return new ArtDecoTable();
     }
+
+    @Override
+    public void k() {
+        System.out.println("Kofi");
+    }
+
+    public static void main(String[] args) {
+        ArtDecoFurnitureFactory a = new ArtDecoFurnitureFactory();
+        a.k();
+    }
 }
